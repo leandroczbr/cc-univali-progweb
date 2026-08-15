@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: black;
+            color: white;
+            margin: 0px;
+        }
+        nav a {
+           color: white;
+           margin: 5px;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(63, 63, 63);
+            color: white;
+            margin-bottom: 20px;
+        }
+        body {
+            background-color: rgb(204, 204, 204);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: url("imagens/pedra.jpg");
+        }
+        .foto img {
+            height: 400px;
+            margin-bottom: 10px;
+        }
+        .foto {
+            padding: 10px;
+            width: 400px;
+            background-color: rgba(255, 255, 255, 0.358);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.272);
+            backdrop-filter: blur(10px);
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Principal</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <header>
+        <h1>Ajude com pix</h1>
+        <p>Ajude a instituição!</p>
+    </header>
+    <main>
+        <div class="foto">
+            <img src="https://sospetsbrasil.com.br/wp-content/uploads/2025/08/qr.png" alt="cachorro">
+            <p>Pix: 50554399000120<br>
+                Conta SOS Pets: Banco do Brasil<br>
+                Ag: 1419-2<br>
+                CC: 33842-7<br>
+                Cnpj: 50554399000120</p>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
