@@ -4,69 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        nav {
-            background-color: black;
-            color: white;
-            margin: 0px;
-        }
-        nav a {
-           color: white;
-           margin: 5px;
-        }
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgb(63, 63, 63);
-            color: white;
-            margin-bottom: 20px;
-        }
-        body {
-            background-color: rgb(204, 204, 204);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-image: url("imagens/pedra.jpg");
-        }
-        .foto img {
-            height: 400px;
-            margin-bottom: 10px;
-        }
-        .foto {
-            padding: 10px;
-            width: 400px;
-            background-color: rgba(255, 255, 255, 0.358);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.272);
-            backdrop-filter: blur(10px);
-        }
-        main {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        form {
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.358);
-            backdrop-filter: blur(10px);
-            display: flex;
-            flex-direction: column;
-            align-content: stretch;
-            align-items: stretch;
-            gap: 5px;
-        }
-        form input {
-            width: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Principal</a>
+        <a href="index.html" >Principal</a>
         <a href="pix.html">Pix</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html" style="background-color: rgb(126, 82, 0)">Contato</a>
     </nav>
     <header>
         <h1>Contato</h1>
@@ -77,7 +23,7 @@
             <label for="nome">Nome <input type="text" name="nome" id=""></label> 
             <label for="email">Email <input type="email" name="email" id=""></label> 
             <label for="mensagem">Mensagem <input type="text" name="mensagem" id=""> </label> 
-            <input type="submit" name="mensagem" id="">
+            <input type="submit" name="mensagem" value="Enviar" id="">
         </form>
     </main>
     <footer></footer>
